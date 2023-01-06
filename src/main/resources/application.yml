@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/buffer_order?serverTimeZone=Asia/Shanghai&useUnicode=true
+      username: root
+      password: 123456
+mybatis-plus:
+  configuration:
+    #在映射实体类或者属性时，将数据库表中名和下划线去掉，按照驼峰命名法映射
+    map-underscore-to-camel-case: true
+
+
+
